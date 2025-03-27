@@ -1,16 +1,24 @@
-# chat_bot
+# Groq API Dart Client
 
-A new Flutter project.
+A simple and efficient Dart client for interacting with Groq's LLM API.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This package provides a straightforward way to integrate Groq's powerful language models into your Dart or Flutter applications. It handles authentication, request formatting, and response parsing, allowing you to focus on building your AI-powered features.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Simple interface for sending messages to Groq's API
+- Support for the latest Groq models (llama-3.3-70b-versatile)
+- Proper error handling and response parsing
+- Easily configurable token limits
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+Add this package to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  http: 
+  provider:
+  
